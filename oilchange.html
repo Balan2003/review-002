@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>K-Car Care</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+      padding: 10px;
+      background-color: #333;
+    }
+    
+    header {
+      background-color: #D2BAA3;
+      color: #000000;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #fffcfc;
+      color: #000000;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #5b3a3a;
+      text-decoration: none;
+      padding: 10px;
+      
+    }
+    
+    main {
+      margin: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin-top: 0;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .booking-form {
+    max-width: 400px;
+    margin: 0 auto;
+    border-top: 20px;
+    padding: 20px;
+  }
+
+  /* Style for form inputs */
+  .booking-form input[type="text"],
+  .booking-form input[type="email"],
+  .booking-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* Style for submit button */
+  .booking-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* Style for form fields label */
+  .booking-form label {
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+    <div class="stick">
+        <header>
+          <table>
+            <tr>
+          <th><img src="https://cdn3.iconfinder.com/data/icons/car-vehicle-servicing-automobile-garage-vol-5-1/512/car_servicing_auto_automobile_vehicle_garage-_16-512.png" height="100" width="100">
+          </th><th><h1>K-Car Care</h1></th>
+          </tr>
+          </table>
+        </header>
+        
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="service.html">Booking</a>
+          <a href="contact.html">Contact</a>
+          <a href="price.html">Check for Price</a>
+        </nav>
+    </div>
+    <form class="booking-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+      
+        <label for="car-model">Car Model:</label>
+        <input type="text" id="car-model" name="car-model" placeholder="Your car model" required>
+      
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+      
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+      
+        <input type="submit" value="Book Now">
+      </form>
+    <footer>
+      <p>&copy; 2023 K-Car Care. All rights reserved.</p>
+    </footer>
+  </body>
+  </html>
+    
